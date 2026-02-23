@@ -65,6 +65,10 @@ See [`orchestration/cron-blueprint.md`](orchestration/cron-blueprint.md) for dep
 
 See [`orchestration/runbook.md`](orchestration/runbook.md) for incident operations and rollback procedures.
 
+## Visual Architecture
+
+The architecture and rollout state diagrams are documented in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
+
 ---
 
 ## Enterprise controls
@@ -78,9 +82,17 @@ See [`orchestration/runbook.md`](orchestration/runbook.md) for incident operatio
 
 ## Repository map
 
-- `docs/` — architecture and implementation strategy
+- `docs/ARCHITECTURE.md` — diagrams + system design
 - `orchestration/` — cron topology + operational runbooks
-- `showcase/` — summarized implementation trail and outcomes
+- `showcase/IMPLEMENTATION_TRAIL.md` — shipped milestone trail
+- `showcase/OUTCOMES_BEFORE_AFTER.md` — before/after impact summary
+
+## Quick Links
+
+- Architecture: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
+- Cron Blueprint: [`orchestration/cron-blueprint.md`](orchestration/cron-blueprint.md)
+- Runbook: [`orchestration/runbook.md`](orchestration/runbook.md)
+- Outcomes: [`showcase/OUTCOMES_BEFORE_AFTER.md`](showcase/OUTCOMES_BEFORE_AFTER.md)
 
 ---
 
