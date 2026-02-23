@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  scripts-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Python syntax check
+        run: |
+          python -m py_compile $(find . -name "*.py" -type f)
+      - name: Shell lint (bash -n)
+        run: |
+          files=$(find . -name "*.sh" -type f)
+          if [ -n "$files" ]; then
+            for f in $files; do bash -n "$f"; done
+          fi
+      - name: Markdown presence check
+        run: |
+          test -f README.md
+          test -f docs/ARCHITECTURE.md
+          test -f orchestration/runbook.md
