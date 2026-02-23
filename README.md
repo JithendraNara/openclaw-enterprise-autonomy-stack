@@ -100,6 +100,7 @@ The architecture and rollout state diagrams are documented in [`docs/ARCHITECTUR
 - Cron Blueprint: [`orchestration/cron-blueprint.md`](orchestration/cron-blueprint.md)
 - Runbook: [`orchestration/runbook.md`](orchestration/runbook.md)
 - Outcomes: [`showcase/OUTCOMES_BEFORE_AFTER.md`](showcase/OUTCOMES_BEFORE_AFTER.md)
+- 2-Min Demo: [`showcase/DEMO_2_MINUTES.md`](showcase/DEMO_2_MINUTES.md)
 
 ---
 
