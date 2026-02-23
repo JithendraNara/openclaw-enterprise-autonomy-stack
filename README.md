@@ -1,5 +1,10 @@
 # OpenClaw Enterprise Autonomy Stack
 
+![Status](https://img.shields.io/badge/status-active-success)
+![Architecture](https://img.shields.io/badge/architecture-openclaw%20native-blue)
+![Watchers](https://img.shields.io/badge/watcher%20stack-v1--v7-purple)
+![Mode](https://img.shields.io/badge/ops-lean%20mode-orange)
+
 Enterprise-grade autonomous operations framework built on top of native OpenClaw architecture.
 
 ## What this repository delivers
@@ -89,7 +94,9 @@ The architecture and rollout state diagrams are documented in [`docs/ARCHITECTUR
 
 ## Quick Links
 
+- Executive Summary: [`showcase/EXECUTIVE_SUMMARY.md`](showcase/EXECUTIVE_SUMMARY.md)
 - Architecture: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
+- Current Status: [`docs/STATUS.md`](docs/STATUS.md)
 - Cron Blueprint: [`orchestration/cron-blueprint.md`](orchestration/cron-blueprint.md)
 - Runbook: [`orchestration/runbook.md`](orchestration/runbook.md)
 - Outcomes: [`showcase/OUTCOMES_BEFORE_AFTER.md`](showcase/OUTCOMES_BEFORE_AFTER.md)
